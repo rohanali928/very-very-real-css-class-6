@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.profile-card img {
+    width: 150px;
+    border-radius: 70%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 500px;
+    min-height: 110vh;
+    background: url(landscape-nature-view-background-view-window-landscape-nature-view-background-view-window-wonderful-landscape-121459679.webp);
+    background-size: cover;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5em;
+    padding: 2% 2%;
+    border-radius: 1em;
+    background-color: rgba(0, 128, 0, 0.229);
+    backdrop-filter: blur(25px);
+    border: 2px solid white;
+    color: beige;
+}
+
+
+.number-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+profile-card .btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.btn button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 2px solid black;
+}
+
+.btn .Follow {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn .Follow:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn .Message {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn .Message:hover {
+    background-color: white;
+    color: black;
+}
